@@ -1,0 +1,50 @@
+.headermenu{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    padding: 8px; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.headermenu li{
+    list-style: none;
+}
+.icon{
+    font-size: 1.8rem;
+    color: #7b7c7c;
+    transition: all 0.4s linear;
+}
+.icon:hover{
+    color: #131313;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+
+@media screen and (max-width: 600px){
+    .headermenu{
+        width: 100%;
+        height: fit-content;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .headermenu li{
+        list-style: none;
+        margin: 10px;
+    }
+    .icon{
+        font-size: 1.4rem;
+        color: #7b7c7c;
+        transition: all 0.4s linear;
+    }
+    .icon:hover{
+        color: #131313;
+        cursor: pointer;
+        transition: all 0.4s linear;
+    }
+}
