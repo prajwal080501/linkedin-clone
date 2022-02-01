@@ -1,0 +1,67 @@
+.feed-top-panel {
+  display: flex;
+  height: fit-content;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 100%;
+  height: fit-content;
+  padding: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  align-items: center;
+}
+.feed-top-panel-item {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 50%;
+  margin: 5px;
+  text-align: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.feed-top-panel-item:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(218, 218, 218);
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.feed-top-panel-item p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.4rem;
+  margin-left: 4%;
+  text-align: center;
+}
+
+/* target first icon */
+.icon-1 {
+  font-size: 1.8rem !important;
+  color: rgb(0, 183, 255);
+}
+.icon-2 {
+  font-size: 1.8rem !important;
+  color: rgb(0, 175, 58);
+}
+.icon-3 {
+  font-size: 1.8rem !important;
+  color: rgb(255, 153, 0);
+}
+.icon-4 {
+  font-size: 1.8rem !important;
+  color: rgb(248, 9, 49);
+}
+
+@media screen and (max-width: 600px){
+    .feed-top-panel-item{
+        width: 100%;
+    }
+    .feed-top-panel-item p{
+        font-size: 1.2rem;
+    }
+}

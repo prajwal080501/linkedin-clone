@@ -1,0 +1,13 @@
+.linkedinnews{
+    flex: 0.2;
+    background-color: #fff;
+    margin-top: 80px;
+    padding : 8px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+.title{
+    padding :5px;
+    color: gray;
+}
