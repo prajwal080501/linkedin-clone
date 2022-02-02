@@ -13,7 +13,7 @@
 .feed-top-panel-item {
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  padding: 5px;
   width: 50%;
   margin: 5px;
   text-align: center;
@@ -34,7 +34,7 @@
 .feed-top-panel-item p {
   margin: 0;
   padding: 0;
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin-left: 4%;
   text-align: center;
 }
@@ -57,11 +57,104 @@
   color: rgb(248, 9, 49);
 }
 
-@media screen and (max-width: 600px){
-    .feed-top-panel-item{
-        width: 100%;
-    }
-    .feed-top-panel-item p{
-        font-size: 1.2rem;
-    }
+/* Mobile Screen  */
+
+@media screen and (max-width: 600px) {
+  .feed-top-panel {
+    width: 100%;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    padding: 5px;
+  }
+  .feed-top-panel-item {
+    width: 80%;
+    margin: 5px;
+    text-align: center;
+    align-items: left;
+    transition: all 0.3s ease-in-out;
+  }
+  .feed-top-panel-item:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(218, 218, 218);
+    align-items: center;
+    border-radius: 10px;
+  }
+  .feed-top-panel-item p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+    margin-left: 4%;
+    text-align: center;
+  }
+  .icon-1 {
+    font-size: 1.8rem !important;
+    color: rgb(0, 183, 255);
+  }
+  .icon-2 {
+    font-size: 1.8rem !important;
+    color: rgb(0, 175, 58);
+  }
+  .icon-3 {
+    font-size: 1.8rem !important;
+    color: rgb(255, 153, 0);
+  }
+  .icon-4 {
+    font-size: 1.8rem !important;
+    color: rgb(248, 9, 49);
+  }
+}
+
+/* Extra small screen */
+
+@media screen and (max-width: 400px) {
+  .feed-top-panel {
+    flex: 0.6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .feed-top-panel-item {
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    margin:auto;
+
+  }
+  .feed-top-panel-item:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(218, 218, 218);
+    align-items: center;
+    border-radius: 10px;
+  }
+  .feed-top-panel-item p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+    margin-left: 4%;
+    text-align: center;
+  }
+  .icon-1 {
+    font-size: 1.8rem !important;
+    color: rgb(0, 183, 255);
+  }
+  .icon-2 {
+    font-size: 1.8rem !important;
+    color: rgb(0, 175, 58);
+  }
+  .icon-3 {
+    font-size: 1.8rem !important;
+    color: rgb(255, 153, 0);
+  }
+  .icon-4 {
+    font-size: 1.8rem !important;
+    color: rgb(248, 9, 49);
+  }
 }

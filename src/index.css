@@ -5,10 +5,18 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.Appblur{
+  filter: blur(10px);
+  pointer-events: none;
+  user-select: none;
+
+}
+
 .app{
   display: flex;
   padding: 10px;
-  border: 1px solid red;
+
+
 }
 body{
   background-color: rgb(236, 236, 236);
@@ -16,6 +24,14 @@ body{
 
 @media screen and (max-width: 600px){
   .app{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (amx-width: 400px){
+  .app{
+    width: 100%;
     display: flex;
     flex-direction: column;
   }

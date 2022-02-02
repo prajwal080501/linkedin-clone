@@ -112,3 +112,31 @@
          display: none;
    }
 }
+
+/* Extra small screen */
+
+@media screen and (max-width: 400px){
+    .header-left{
+        width: 40%;
+    }
+
+    .brand-icon{
+        font-size: 1.9rem;
+    }
+    .header-right{
+        width: 70%;
+        padding-right: 15px;
+    }
+    .search{
+        width: 100%;
+    }
+    .search-icon{
+        display: none;
+    }
+    .vl{
+        display: none;
+    }
+    .text{
+        display: none;
+    }
+}
